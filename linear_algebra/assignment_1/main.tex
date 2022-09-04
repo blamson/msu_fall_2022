@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Assignment 2}
+\author{lamsonbrady }
+\date{September 3rd, 2022}
+
+% Header related stuff
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[R]{MTH 3220 - Linear Algebra}  
+\fancyhead[L]{Homework 2}               
+\fancyfoot[R]{Brady Lamson}
+\fancyfoot[L]{MSU Denver}
+
+% Math packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Creates small p-matrix ----
+\newcommand{\psmall}[1]{
+\left(\begin{smallmatrix}
+#1
+\end{smallmatrix} \right)
+}
+
+% makes mathbb commands faster to type
+\newcommand{\bb}{\mathbb}
+
+% Makes vectors slightly faster
+% \newcommand{\v}[#1]{\vec{#1}}
+\begin{document}
+
+\section*{Exercise 2.1} 
+Find a basis in the space of $3 \times 2$ matrices $M_{3 \times 2}$.
+
+\section*{Exercise 2.2}
+Answer true or alse for the following:
+
+\subsection*{2.2a} Any set containing a zero vector is linearly dependent.
+
+\subsection*{2.2b} A basis must contain $\vec{0}$.
+
+\subsection*{2.2c} Subsets of linearly dependent sets are linearly dependent;
+
+\subsection*{2.2d} Subsets of linearly independent sets are linearly independent;
+
+\subsection*{2.2e} If $\alpha_1\vec{v_1}, \alpha_2\vec{v_2}, + \dots, + \alpha_n\vec{v_n} = \vec{0}$ then all scalars $\alpha_k$ are zero;
+\end{document}
