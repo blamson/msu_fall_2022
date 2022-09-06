@@ -1,0 +1,74 @@
+\section*{Exercise 2.4}
+
+\textbf{Problem:} Write down a basis for the space of
+
+\subsection*{2.4a} $3 \times 3$ symmetric matrices;
+
+We can use similar logic to exercise 2.3 here, but it's important to note that a $3 \times 3$ is obviously larger than a $2 \times 2$. We can't just take for granted a simple $n - 1$ count for basis vectors as we now have more points in the matrix that match. Let's take a look at a generic $3 \times 3$ matrix transpose.
+
+\[
+	\begin{Bmatrix}
+		a & b & c \\
+		d & e & f \\
+		g & h & i
+	\end{Bmatrix}^T
+=
+	\begin{Bmatrix}
+		a & d & g \\
+		b & e & h \\
+		c & f & i
+	\end{Bmatrix}
+\]
+
+From this transpose we can take note of the values that need to be the same. That is the following:
+
+\[
+	\begin{aligned}
+		b &= d \\
+		c &= g \\
+		f &= h
+	\end{aligned}
+\]
+
+We have three sets of matching points. That means three pairs of points that can each be controlled by their own scalar which results in $(3 \cdot 3) - 3 = 6$ basis vectors necessary.
+
+Our basis in this case is $S = \left\{ \vec{e_{1}}, \vec{e_{2}}, \vec{e_{3}}, \vec{e_{4}} \vec{e_{5}}, \vec{e_{6}}\right\}$.
+
+\[
+	\begin{aligned}
+	\vec{e_{1}} &= \begin{Bmatrix}
+		1 & 0 & 0 \\
+		0 & 0 & 0 \\
+		0 & 0 & 0 \\
+	\end{Bmatrix} &
+	\vec{e_{2}} &= \begin{Bmatrix}
+		0 & 1 & 0 \\
+		1 & 0 & 0 \\
+		0 & 0 & 0 \\
+	\end{Bmatrix} &
+	\vec{e_{3}} &= \begin{Bmatrix}
+		0 & 0 & 0 \\
+		0 & 1 & 0 \\
+		0 & 0 & 0 \\
+	\end{Bmatrix} \\
+	\vec{e_{4}} &= \begin{Bmatrix}
+		0 & 0 & 1 \\
+		0 & 0 & 0 \\
+		1 & 0 & 0 \\
+	\end{Bmatrix} &
+	\vec{e_{5}} &= \begin{Bmatrix}
+		0 & 0 & 0 \\
+		0 & 0 & 1 \\
+		0 & 1 & 0 \\
+	\end{Bmatrix} &
+	\vec{e_{6}} &= \begin{Bmatrix}
+		0 & 0 & 0 \\
+		0 & 0 & 0 \\
+		0 & 0 & 1 \\
+	\end{Bmatrix}
+	\end{aligned}
+\]
+
+\subsection*{2.4b} $n \times n$ symmetric matrices;
+
+\subsection*{2.4c} $n \times n$ \emph{antisymmetric} $\left( A^T = -A \right) $matrices;
