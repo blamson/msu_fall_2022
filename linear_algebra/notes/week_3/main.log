@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.8.31)  6 SEP 2022 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.8.31)  8 SEP 2022 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -194,39 +194,52 @@ ec-tors, $[]$
 [1{/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/map/pdftex/up
 dmap/pdftex.map}
 
-] [2] [3] [4] [5] (./main.aux) ) 
+] [2] [3] [4] [5] [6] [7]
+Overfull \hbox (35.02011pt too wide) in paragraph at lines 529--530
+[]\OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 A[]$\OT1/cmr/m/n/10 (the ma-trix as-s
+o-ci-ated to T) is the ma-trix with columns $\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 
+([])\OML/cmm/m/it/10 ; T\OT1/cmr/m/n/10 ([])\OML/cmm/m/it/10 ; [] ; T\OT1/cmr/m
+/n/10 ([])$ 
+ []
+
+[8]
+Overfull \hbox (79.58853pt too wide) detected at line 581
+[][]
+ []
+
+[9] [10] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  2641 strings out of 478268
  40389 string characters out of 5835366
- 338187 words of memory out of 5000000
+ 346188 words of memory out of 5000000
  20850 multiletter control sequences out of 15000+600000
  478676 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,65p,518b,258s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/20220321_2/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texl
-ive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt
-/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20220321_2/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar
-/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20220321_2
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></opt/homebrew/Cellar
-/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
-opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20220321_2/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/homebrew/Cellar
-/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10
-.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (5 pages, 163068 bytes).
+</opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20220
+321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew
+/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
+10.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/
+20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/home
+brew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></opt/homebrew/Cellar/texlive/
+20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/homeb
+rew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/homebrew/Cellar/texlive/
+20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></op
+t/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfon
+ts/symbols/msbm7.pfb>
+Output written on main.pdf (10 pages, 178553 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
