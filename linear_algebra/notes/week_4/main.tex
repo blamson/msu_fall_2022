@@ -197,6 +197,47 @@ So my matrix is
 
 \[A_T = \genericmat{p}{0&1&0&0 \\ 0&0&2&0 \\ 0&0&0&3}\]
 
+\part{Thursday Notes}
+
+Vector spaces lead to the basis of a vector space. Within this space we have a relationship between theoretical vectors and euclidean vectors.
+
+\[
+	\vec{v} = x_1 \vec{v_1} + x_2 \vec{v_2} + \dots + x_n \vec{v_n} 
+	\longleftrightarrow
+	\vec{v} = \genericmat{p}{x_1\\x_2\\ \vdots \\ x_n}
+\]
+
+And, also building off of the basis of a vector space are linear transformations. These have the same kind of relationship between theoretical transformations and matrix representations.
+
+\[
+	\begin{aligned}
+	T(\vec{v_1} + \vec{v_2}) = T\left( \vec{v_1} \right)) + T\left( \vec{v_2} \right)
+	\longleftrightarrow
+	T(\vec{v}) = A_T \cdot \vec{v}
+	\end{aligned}
+\]
+
+\section{Matrices and Systems of Linear Equations}
+\subsection{Question 1}
+
+Consider the vectors
+
+\[
+	\vec{v_1} = \genericmat{p}{1\\-2\\3} \genericmat{p}{1\\-1\\2} \genericmat{p}{2\\-3\\6}
+\]
+
+\subsubsection{A}
+
+Show that $\vec{v_1}, \vec{v_2}, \vec{v_3}$ are linearly independent.
+
+\subsubsection{B}
+
+Write the vector $\vec{b} = \psmall{6\\5\\4}$ as a linear combination of $\{\vec{v_1}, \vec{v_2}, \vec{v_3}\}$
+
+\subsubsection{C}
+
+Explain, using the basis definition, why $\{\vec{v_1}, \vec{v_2}, \vec{v_3}\}$ form a basis for $\R^3$
+
 \end{document}
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.8.31)  15 SEP 2022 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.8.31)  13 SEP 2022 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -153,32 +153,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/latex/graphics/gr
-aphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/latex/graphics/gr
-aphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/latex/graphics/tr
-ig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/latex/graphics-cf
-g/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/latex/graphics-de
-f/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen148
-\Gin@req@width=\dimen149
-))
+)))
 (/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/latex/l3backend/l
 3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
@@ -201,82 +176,47 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
-
-(/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/context/base/mkii
-/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count273
-\scratchdimen=\dimen150
-\scratchbox=\box53
-\nofMPsegments=\count274
-\nofMParguments=\count275
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count276
-\MPscratchDim=\dimen151
-\MPnumerator=\count277
-\makeMPintoPDFobject=\count278
-\everyMPtoPDFconversion=\toks25
-)
-(/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/latex/epstopdf-pk
-g/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/latex/latexconfig
-/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
-
+ (./3.1.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/latex/amsfonts/um
 sa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/tex/latex/amsfonts/um
 sb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/map/pdftex/
-updmap/pdftex.map}
+)) [1{/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/map/pdftex
+/updmap/pdftex.map}
 
-]
-<fig1.png, id=15, 205.76875pt x 178.6675pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 105.
-(pdftex.def)             Requested size: 154.32617pt x 134.00029pt.
- [2] [3 <./fig1.png>] [4] [5] [6] (./main.aux) ) 
+] (./3.2.tex) [2] (./3.3.tex [3] [4]) [5] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3456 strings out of 478268
- 53388 string characters out of 5835366
- 354039 words of memory out of 5000000
- 21643 multiletter control sequences out of 15000+600000
- 473082 words of font info for 43 fonts, out of 8000000 for 9000
+ 2629 strings out of 478268
+ 40218 string characters out of 5835366
+ 338214 words of memory out of 5000000
+ 20836 multiletter control sequences out of 15000+600000
+ 473428 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,67p,520b,239s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/2
-0220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/home
-brew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texl
-ive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/
-homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20220321_2/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/tex
-live/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt
-/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfont
-s/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 128563 bytes).
+ 62i,13n,67p,520b,233s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/t
+exlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20220321_
+2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/homebrew/Cel
+lar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20220321
+_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Ce
+llar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb>
+Output written on main.pdf (5 pages, 114378 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

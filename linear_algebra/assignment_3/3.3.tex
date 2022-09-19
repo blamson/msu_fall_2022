@@ -1,108 +1,96 @@
-\section{Exercise 3.3}
+\section*{Exercise 3.3}
+For each linear transformation below find its matrix.
 
-Using column or row operations compute the determinants.
+\subsection*{Part A}
+$T: \R^2 \to \R^3$ defined by:
+\[T(x,y)^T = \genericmat{p}{x+2y\\2x-5y\\7y}\]
 
-\subsection{Matrix 1}
-
-\[
-	\genericmat{v}{0 & 1 & 2 \\ -1 & 0 & -3 \\ 2 & 3 & 0}
-\]
-
-I was able to solve this using only row operations. The order of these operations was as follows.
-
-For clarity's sake, first, second and third will reference the previous matrix. I will not reference the original matrix beyond the first operation.
-
-First: Switch the first and second row. (This flips the sign of the determinant)
+Same gameplan as 3.2, we transform our standard basis vectors and use those to get the matrix of the transformation.
 
 \[
-	\genericmat{b}{-1 & 0 & -3 \\ 0 & 1 & 2 \\ 2 & 3 & 0}
-\]
-
-Second, switch the second and third rows. (This flips the sign of the determinant back to normal)
-
-\[
-	\genericmat{b}{-1 & 0 & -3 \\ 2 & 3 & 0 \\ 0 & 1 & 2 }
-\]
-
-Third, I scale the first row by 2. (This scales the determinant by 2)
-
-\[
-	\genericmat{b}{-2 & 0 & -6 \\ 2 & 3 & 0 \\ 0 & 1 & 2 }
-\]
-
-Fourth, I change the first row to be itself plus 3 times the second row. (Determinant does not change)
-
-\[
-	\genericmat{b}{-2 & 3 & 0 \\ 2 & 3 & 0 \\ 0 & 1 & 2 }
-\]
-
-Finally, I change the first row to be itself plus -1 times the second row. (Determinant does not change)
-
-\[
-	\genericmat{b}{-4 & 0 & 0 \\ 2 & 3 & 0 \\ 0 & 1 & 2 }
-\]
-
-From here, as we have a lower triangular matrix, we can calculate the determinant as the product of the diagonals. 
-
-So we get, for our altered matrix $M_a$: 
-
-\[
-	\begin{aligned}	
-		det(M_a) &= -4 \cdot 3 \cdot 2 \\
-		&= -24	
+	\begin{aligned}
+		T(\vec{e_1}) &= \genericmat{p}{1\\2\\0} \\
+		T(\vec{e_2}) &= \genericmat{p}{2\\-5\\7}
 	\end{aligned}
 \]
 
-Since we scaled a row by 2, that means the original matrix has a determinant of half of this result. So.
+From this we can state that the matrix of this transformation is:
 
-\[det(M) = -12\]
+\[A = \genericmat{p}{1&2\\2&-5\\0&7}\]
 
-I utilized the TI-84 Plus to verify my answer here. The result I acquired was -12.
-
-\subsection{Matrix 2}
+\subsection*{Part B}
+$T: \R^4 \to \R^3$ defined by:
 
 \[
-	\genericmat{v}{1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9}
+	T \genericmat{p}{x_1\\x_2\\x_3\\x_3} = 
+	\genericmat{p}
+	{x_1+x_2+x_3+x_4 \\ 
+	x_2 - x_4 \\ 
+	x_1 + 3x_2 + 
+	6x_4}
 \]
 
-This matrix is (thankfully) far quicker to get through. We only need one row and one column operation to get the determinant.
-
-For better clarity I will use $r_n$ and $c_n$ notation to represent rows and columns respectively.
-
-First step (no change to determinant):
-
-\[r_3 \to r_3 + (-4)r_1\]
-
 \[
-	\genericmat{b}{1 & 2 & 3 \\ 4 & 5 & 6 \\ 3 & 0 & -3}
+	\begin{aligned}
+		T(\vec{e_1}) &= (1,0,1)^T \\
+		T(\vec{e_2}) &= (1,1,3)^T \\
+		T(\vec{e_3}) &= (1,0,0)^T \\
+		T(\vec{e_4}) &= (1,-1,6)^T \\
+	\end{aligned}
 \]
 
-Second step (no change to determinant):
+As such we get the following matrix for this transformation:
 
-\[c_1 = c_1 + c_3 + (-3)c_2\]
+\[A = \genericmat{p}{1&1&1&1\\0&1&0&-1\\1&3&0&6}\]
+
+\subsection*{Part C}
+
+$T: P_n \to P_n, Tf(t) = f'(t)$. Find this matrix with respect to the standard basis. 
+
+Let $\beta = \left\{ 1, t, t^t, \cdots, t^n \right\}$.
 
 \[
-	\genericmat{b}{0 & 2 & 3 \\ 0 & 5 & 6 \\ 0 & 0 & -3}
+	\begin{aligned}
+		T(1) = 0 &= (0,0,0, \dots , 0^T \\
+			T(t) = 1 &= (1,0,0, \dots, 0)^T \\
+			T(t^2) = 2t &= (0,2,0, \dots , 0)^T \\
+			T(t^3) = 3t^2 &= (0,0,3, \dots,  0)^T \\
+			T(t^n) = nt^{n-1} &= (0,0,0, \dots,  n)^T 
+	\end{aligned}
 \]
 
-As nothing scaled the matrix or changed its sign we can safely note that this altered matrix has the same determinant as the original. Thus,
-
-\[det(M) = 0 \cdot 5 \cdot -3 = 0\]
-
-Both my TI-84 and R gave me 0 as the determinant for verification. 
-
-\subsection{Matrix 3}
+So,
 
 \[
-	\genericmat{v}{1 & 0 & -2 & 3 \\ -3 & 1 & 1 & 2 \\ 0 & 4 & -1 & 1 \\ 2 & 3 & 0 & 0}
+	A = \genericmat{p}{
+		0&1&0&0& \dots & 0 \\
+		0&0&2&0& \dots & 0 \\
+		0&0&0&3& \dots & 0 \\
+		\vdots & \vdots & \vdots & \vdots & \dots & \vdots \\
+		0&0&0&0& \dots & n \\
+	}
 \]
 
-I am unable to solve this one manually, I've tried various paths and keep reaching dead ends.
+\subsection*{Part D}
+\[T: P_n \to P_n,\; Tf(t) = 2f(t) + 3f \myprime (t) - 4f \mydprime (t)\]
 
-The determinant of this matrix is 76 as per the result of my calculator. 
-
-\subsection{Matrix 4}
+Let $\beta = \left\{ 1, t, t^t, \cdots, t^n \right\}$.
 
 \[
-	\genericmat{v}{1 & x \\ 1 & y}
+	\begin{aligned}
+		T(1) &= 2 \cdot 1 = 1 = \boxed{(1,0,0)^T} \\
+		T(t) &= 2t + 3(1) = 2t + 3 = \boxed{(3,2,0)^T} \\
+		T(t^2) &= 2t^2 + 6t - 24 = \boxed{(-24,6,2)^T} \\
+		T(t^n) &= 2t^n + 3nt^{n-1} - 4(n^2-n)t^{n-2} = \boxed{(-4(n^2-2),3n,2)^T} \\
+	\end{aligned}
+\]
+
+\[
+A = 
+\genericmat{p}
+{
+	2&3&-24&\dots&-4(n^2-n)\\
+	0&2&6&\dots&3n\\
+	0&0&2&\dots&2
+}
 \]
