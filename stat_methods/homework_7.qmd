@@ -1,0 +1,110 @@
+---
+title: "Homework 7"
+author: "Brady Lamson"
+format: pdf
+editor: visual
+---
+
+# Section 11.2
+
+## Problem 16
+
+Factor A - Curing time ($I = 3$)
+
+Factor B - Type of Mix ($J = 4$)
+
+3 Observations for each, 36 total sample size.
+
+$$
+\begin{aligned}
+SSA &= 30763.0 \\
+SSB &= 34185.6 \\
+SSE &= 97436.8 \\
+SST &= 205966.6
+\end{aligned}
+$$
+
+```{r}
+# Sums of Squares ---
+ssa <- 30763
+ssb <- 34185.6
+sse <- 97436.8
+sst <- 205966.6
+ssab <- sst - (ssa + ssb + sse)
+sums <- c(ssa,ssb,sse,ssab,sst)
+
+# Categories and samples ---
+i <- 3
+j <- 4
+k <- 3
+
+# Degrees of freedom ---
+dfa <- i-1
+dfb <- j-1
+dfe <- i*j*(k-1)
+dfab <- (i-1)*(j-1)
+dft <- (i*j*k)-1
+dfs <- c(dfa, dfb, dfe, dfab, dft)
+
+# Mean Square Ratios ---
+mean_square_names <- c("MSA", "MSB", "MSE", "MSAB")
+mean_squares <- round(sums[1:4] / dfs[1:4], 3)
+
+# Test Statistics ---
+test_stats <- (mean_squares[c(1,2,4)] / mean_squares[3]) |> round(3)
+test_names <- c("fa", "fb", "fab")
+
+# p-values ---
+p_val <- pf(q = test_stats[1:3], df1 = dfs[c(1,2,4)], df2 = dfs[3], lower.tail = F)
+
+p_val_names <- c("a", "b", "ab")
+```
+
+```{r, echo=FALSE}
+glue::glue("{mean_square_names} = {mean_squares}")
+
+glue::glue("{test_names} = {test_stats}")
+
+glue::glue("P-Value {p_val_names}: {round(p_val, 3)}")
+```
+
+```{r, echo=FALSE, out.width="80%"}
+knitr::include_graphics("pr16_anova.png")
+```
+
+Utilizing all of the information collected above to generate the ANOVA table, we can draw the following conclusions:
+
+$$H_{0AB}: \text{no interaction of factors}$$
+
+There is not statistically significant evidence to reject the null hypothesis, $H_{0AB}$, that there is no interaction effect between curing time and type of mix at the $0.05$ significance level.
+
+$$H_{0A}: \text{Factor A main effects are absent}$$
+
+There is statistically significant evidence at the $0.05$ level to reject the null hypothesis that factor A, curing time, has no effect on the compression strength of hardened cement cubes. It is reasonable to suggest that curing time has a positive impact on compression strength.
+
+$$H_{0B}: \text{Factor B main effects are absent}$$
+
+There is not statistically significant evidence at the $0.05$ level to reject the null hypothesis that type of mix has no effect on the compression strength of hardened cement cubes. 
+
+## Problem 17
+check digital handout
+
+## Problem 18
+skip part b
+check digital handout
+
+## Problem 20
+check digital handout
+
+# Section 11.3
+
+## Problem 1
+given on digital handout
+
+## Problem 27
+skip part d
+
+## Problem 29
+
+## Problem 31
+check digital handout

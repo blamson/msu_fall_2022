@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.10.3)  1 NOV 2022 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.10.3)  2 NOV 2022 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -188,8 +188,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count272
 \l__pdf_internal_box=\box52
-) (./main.aux (./ex1.aux) (./ex2.aux) (./ex3.aux) (./ex4.aux) (./ex5.aux) (./re
-sources.aux))
+) (./main.aux (./ex1.aux) (./ex2.aux) (./ex3.aux) (./ex4.aux) (./ex5.aux) (./ex
+6.aux) (./ex7.aux) (./ex8.aux) (./ex9.aux) (./ex10.aux)
+(./resources.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -288,44 +289,77 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
+\openout2 = `ex7.aux'.
+
+ (./ex7.tex) [7
+
+
+
+]
+\openout2 = `ex8.aux'.
+
+ (./ex8.tex) [8
+
+
+
+]
+\openout2 = `ex9.aux'.
+
+ (./ex9.tex)
+[9
+
+
+
+]
+\openout2 = `ex10.aux'.
+
+ (./ex10.tex) [10
+
+
+
+]
 \openout2 = `resources.aux'.
 
  (./resources.tex
-<3_3det.png, id=29, 640.3925pt x 281.05pt>
+<3_3det.png, id=45, 640.3925pt x 281.05pt>
 File: 3_3det.png Graphic file (type png)
 <use 3_3det.png>
 Package pdftex.def Info: 3_3det.png  used on input line 3.
 (pdftex.def)             Requested size: 320.19547pt x 140.52464pt.
-) [7
+) [11
 
 
 
- <./3_3det.png>]
-(./main.aux (./ex1.aux) (./ex2.aux) (./ex3.aux) (./ex4.aux) (./ex5.aux)
-(./ex6.aux) (./resources.aux)) ) 
+ <./3_3det.png>] (./main.aux
+(./ex1.aux) (./ex2.aux) (./ex3.aux) (./ex4.aux) (./ex5.aux) (./ex6.aux)
+(./ex7.aux) (./ex8.aux) (./ex9.aux) (./ex10.aux) (./resources.aux)) ) 
 Here is how much of TeX's memory you used:
- 3690 strings out of 478268
- 58603 string characters out of 5835366
- 356754 words of memory out of 5000000
- 21829 multiletter control sequences out of 15000+600000
- 472168 words of font info for 40 fonts, out of 8000000 for 9000
+ 3809 strings out of 478268
+ 61067 string characters out of 5835366
+ 358039 words of memory out of 5000000
+ 21916 multiletter control sequences out of 15000+600000
+ 472822 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,67p,549b,229s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/20220321_3/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texl
-ive/20220321_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt
+</opt/home
+brew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texl
+ive/20220321_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt
 /homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb></opt/homebrew/Cellar/texlive/20220321_3/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/t
-exlive/20220321_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></op
-t/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (7 pages, 297338 bytes).
+s/cm/cmmi7.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20220321_3/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></opt/homebrew/Cellar/tex
+live/20220321_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/
+homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20220321_3/sh
+are/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (11 pages, 337642 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
