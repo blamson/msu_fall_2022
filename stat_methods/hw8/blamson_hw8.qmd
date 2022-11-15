@@ -1,0 +1,134 @@
+---
+title: "Homework 8"
+author: "Brady Lamson"
+format: pdf
+editor: visual
+---
+
+```{r, include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(ggplot2)
+```
+
+
+# Section 12.1
+
+## Problem 7
+
+- $y = $ 28-day standard cured strength (psi)
+
+- $x = $ accelerated strength (psi)
+
+$$
+y = 1800 + 1.3x
+$$
+
+### Part A
+
+What is the expected value of 28-day strength when accelerated strength is 2500?
+
+```{r}
+x <- 2500
+
+1800 + (1.3*x)
+```
+
+### Part B
+
+By how much can we expect 28-day strength to change when accelerated strength increases by 1 psi?
+
+The slope, so we can expect it to increase by 1.3 psi.
+
+### Part C
+
+By how much can we expect 28-day strength to change when accelerated strength increases by 100 psi?
+
++130 psi
+
+### Part D
+
+By how much can we expect 28-day strength to change when accelerated strength increases by 100 psi?
+
+-130
+
+# Section 12.2
+
+## Problem 15
+
+### Part B
+
+Is the value of strength completely and uniquely determined by the value of MOE? Explain.
+
+I would wager no. If that was the case there would be no up and down fluctuation in strength as MOE increases. Obviously other things have an effect as well.
+
+### Part C
+
+$$
+y = 3.2925 + 0.10748x
+$$
+Where y is the strength and x is the modus of elasticity
+
+```{r}
+x <- 40
+y <- 3.2925 + (0.10748*x)
+y
+```
+
+I wouldn't feel comfortable predicting a value for strength off of a MOE of 100. As we have no values that high we can't determine this relationship continues linearly.
+
+### Part D
+
+$$
+\begin{aligned}
+SSE &= 18.736 \\
+SST &= 71.605 \\
+r^2 &= 0.738
+\end{aligned}
+$$
+
+They do indicate that the regression does a good job. If more of the total sum of squares was made up by the error and the $r^2$ was lower I would not say this. 
+
+## Problem 16
+
+```{r}
+df <- tibble(
+  rainfall = c(5,12,14,17,23,30,40,47,55,67,72,81,96,112,127),
+  runoff = c(4,10,13,15,15,25,27,46,38,46,53,70,82,99,100)
+)
+
+df %>%
+  ggplot(aes(x=rainfall, y=runoff)) +
+  geom_point() +
+  theme_bw()
+```
+
+The scatterplot does support the use of a simple linear regression model.
+
+### Part B
+
+```{r}
+reg <- lm(runoff ~ rainfall, data = df)
+reg %>% summary()
+```
+
+Point estimate of the slope is 0.82697. Point estimate of the intercept is -1.12830. 
+
+### Part C
+
+```{r}
+predict.lm(reg, newdata = data.frame(rainfall = c(50)))
+```
+
+### Part D
+
+```{r}
+reg %>% anova()
+```
+
+$$
+\sigma = \sqrt{\frac{SSE}{n-2}} = \sqrt{\frac{27.5}{13}} \approx 1.45
+$$
+
+### Part E
+
+0.9753
